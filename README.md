@@ -14,3 +14,5 @@ Dit is een repository voor een hele simpele opdracht die wij voor GPR hebben gek
 - Dit is handig omdat je dan de verantwoordelijkheden kunt opsplitsen en ze bijvoorbeeld apart aan en uit zou kunnen zetten.
 
 - Dan zal er in NextDialog een functie aangeroepen moeten worden.
+
+Voor de bonus opdracht hebben wij een simpele dialog counter gemaakt die het aantal dialogs telt en dat op het canvas weergeeft.
