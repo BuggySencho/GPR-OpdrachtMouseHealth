@@ -21,6 +21,4 @@ public class PlayerHealthUI : MonoBehaviour
         healthText.text = health.ToString();
         healthBar.fillAmount = (float)health / (float)maxHealth;
     }
-
-    
 }
