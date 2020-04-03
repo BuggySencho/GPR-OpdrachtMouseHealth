@@ -8,16 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int health = 100;
     [SerializeField] private int maxHealth = 100;
 
-    private PlayerHealthUI playerHealthUI;
-
-    public event Action<float, float> onDamage;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        playerHealthUI = GetComponent<PlayerHealthUI>();
-        onDamage += Camera.main.GetComponent<CameraListener>().CallShake;
-    }
+    public event Action<float, float, int, int> onDamage;
 
     public void Damage(int i)
     {
@@ -26,8 +17,7 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
         health -= i;
-        playerHealthUI.UpdateHealth(health, maxHealth);
-        onDamage(1, 0.1f);
+        onDamage(1, 0.1f, health, maxHealth);
         if (health <= 0)
         {
             Debug.Log("Big OOF");

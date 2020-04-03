@@ -7,6 +7,7 @@ public class PlayerHealthUI : MonoBehaviour
 {
     private Text healthText;
     private Image healthBar;
+    private PlayerHealth playerHealth;
 
     // Start is called before the first frame update
     void Start()
