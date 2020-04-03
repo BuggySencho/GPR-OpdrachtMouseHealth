@@ -16,3 +16,7 @@ Dit is een repository voor een hele simpele opdracht die wij voor GPR hebben gek
 - Dan zal er in NextDialog een functie aangeroepen moeten worden.
 
 Voor de bonus opdracht hebben wij een simpele dialog counter gemaakt die het aantal dialogs telt en dat op het canvas weergeeft.
+
+## Deel 3
+
+Demo build: https://drive.google.com/file/d/1mjJAbrQtVShEVz6b3EtXYdu5VFZRMZkf/view?usp=sharing
